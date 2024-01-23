@@ -17,11 +17,16 @@ public class Person
     private String fullname;
     private DateTime birthday;
 
+    private PersonNumber personNumber;
+
+    private House house;
+
     /// <summary>
     /// Basic Person constuctor, will set name as Undefined
     /// </summary>
-    public Person()
+    public Person(PersonNumber personNumber)
     {
+        this.personNumber = this.personNumber;
         fullname = "Undefined";
     }
 
@@ -29,8 +34,9 @@ public class Person
     /// Person Constructor that will set a persons fullname 
     /// </summary>
     /// <param name="fullname">The full name</param>
-    public Person(String fullname)
+    public Person(String fullname, PersonNumber personNumber)
     {
+        this.personNumber = this.personNumber;
         this.fullname = fullname;
     }
     
@@ -39,8 +45,9 @@ public class Person
     /// </summary>
     /// <param name="firstname">The firstname</param>
     /// <param name="lastname">The lastname</param>
-    public Person(String firstname, String lastname)
+    public Person(String firstname, String lastname, PersonNumber personNumber)
     {
+        this.personNumber = this.personNumber;
         this.fullname = firstname + " " + lastname;
     }
 
@@ -59,5 +66,16 @@ public class Person
         int age = DateTime.Now.Year - birthday.Year;
 
         return age;
+    }
+
+    public void setAddress(House house)
+    {
+        // check that the house is valid
+        this.house = house;
+    }
+    
+    public House getAddress()
+    {
+        return house;
     }
 }
