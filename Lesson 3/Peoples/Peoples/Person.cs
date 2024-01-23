@@ -21,6 +21,8 @@ public class Person
 
     private House house;
 
+    protected string telephone;
+
     /// <summary>
     /// Basic Person constuctor, will set name as Undefined
     /// </summary>
