@@ -9,6 +9,10 @@ public class Wizard:Character
     {
         _allowedWeapons.Add(WeaponAttackType.Magic);
     }
-    
+
+    public void CastSpell()
+    {
+        Console.WriteLine("Cast a spell.");
+    }
     
 }

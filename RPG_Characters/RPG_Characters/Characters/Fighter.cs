@@ -9,5 +9,10 @@ public class Fighter:Character
     {
         _allowedWeapons.Add(WeaponAttackType.Melee);
     }
+
+    public void BattelCry()
+    {
+        Console.WriteLine("An angry scream");
+    }
     
 }
