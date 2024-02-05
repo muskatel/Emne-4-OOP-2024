@@ -28,6 +28,9 @@ class Program
         party.Add(player1);
         party.Add(player2);
         party.Add(CharacterMaker.RandomCharacter());
+        party.Add(CharacterMaker.RandomCharacter());
+        party.Add(CharacterMaker.RandomCharacter());
+        party.Add(CharacterMaker.RandomCharacter());
 
         foreach (Character character in party)
         {
