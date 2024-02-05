@@ -11,7 +11,7 @@ class Program
 
         Character char1 = new Wizard("Craigsworth");
 
-        Weapon wep1 = new Staff();
+        Weapon wep1 = new Sword();
         
         char1.EquipWeapon(wep1);
         

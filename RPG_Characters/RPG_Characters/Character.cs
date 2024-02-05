@@ -24,10 +24,18 @@ public class Character
         {
             _equippedWeapon = weapon;
         }
+        else
+        {
+            // handle what happens when a character cannot equip a weapon
+        }
     }
 
     public String Attack()
     {
+        if (_equippedWeapon == null)
+        {
+            return $"{_name} the {_className} cant' attack without a weapon";
+        }
         return $"{_name} the {_className} makes a {_equippedWeapon.Attack()}";
     }
 }
