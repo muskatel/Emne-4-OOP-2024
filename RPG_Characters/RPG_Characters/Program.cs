@@ -27,6 +27,7 @@ class Program
         List<Character> party = new List<Character>();
         party.Add(player1);
         party.Add(player2);
+        party.Add(CharacterMaker.RandomCharacter());
 
         foreach (Character character in party)
         {
