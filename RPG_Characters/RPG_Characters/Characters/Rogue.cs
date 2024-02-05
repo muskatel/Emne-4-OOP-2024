@@ -7,7 +7,8 @@ public class Rogue:Character
           "Rogue",
           "a sneaky fellow")
     {
-        
+        _allowedWeapons.Add(WeaponAttackType.Melee);
+        _allowedWeapons.Add(WeaponAttackType.Ranged);
     }
     
 }

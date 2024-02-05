@@ -4,8 +4,8 @@ public class Staff:Weapon
 {
     public Staff()
     :base("staff", 
-          "a simpel wooden staff",
-          WeaponAttackType.Melee)
+          "a simple wooden staff with magical properties",
+          WeaponAttackType.Magic)
     {
         
     }

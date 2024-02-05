@@ -7,16 +7,23 @@ public class Character
     private String _description;
     private Weapon _equippedWeapon;
 
+    protected List<WeaponAttackType> _allowedWeapons;
+    //Collection: List
+
     public Character(string name, string className, string description)
     {
         _name = name;
         _className = className;
         _description = description;
+        _allowedWeapons = new List<WeaponAttackType>();
     }
 
     public void EquipWeapon(Weapon weapon)
     {
-        _equippedWeapon = weapon;
+        if (_allowedWeapons.Contains(weapon.AttackType))
+        {
+            _equippedWeapon = weapon;
+        }
     }
 
     public String Attack()

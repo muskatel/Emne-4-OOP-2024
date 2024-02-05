@@ -9,9 +9,9 @@ class Program
     {
         Console.WriteLine("Hello, World!");
 
-        Character char1 = new Ranger("Craigsworth");
+        Character char1 = new Wizard("Craigsworth");
 
-        Weapon wep1 = new Bow();
+        Weapon wep1 = new Staff();
         
         char1.EquipWeapon(wep1);
         

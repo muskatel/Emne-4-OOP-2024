@@ -12,7 +12,7 @@ public class Ranger:Character
         "Ranger", 
         "a merry person of the woods")
     {
-        
+        _allowedWeapons.Add(WeaponAttackType.Ranged);
     }
     
 }

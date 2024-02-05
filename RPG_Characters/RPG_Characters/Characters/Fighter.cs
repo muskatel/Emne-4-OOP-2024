@@ -7,7 +7,7 @@ public class Fighter:Character
           "Fighter",
           "a strong fighting person")
     {
-        
+        _allowedWeapons.Add(WeaponAttackType.Melee);
     }
     
 }

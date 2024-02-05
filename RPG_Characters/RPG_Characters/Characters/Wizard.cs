@@ -7,7 +7,8 @@ public class Wizard:Character
           "Wizard",
           "a hocus pucus person")
     {
-        
+        _allowedWeapons.Add(WeaponAttackType.Magic);
     }
+    
     
 }
