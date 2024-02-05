@@ -2,7 +2,10 @@
 
 public class Fighter:Character
 {
-    public Fighter()
+    public Fighter(String name)
+    :base(name,
+          "Fighter",
+          "a strong fighting person")
     {
         
     }

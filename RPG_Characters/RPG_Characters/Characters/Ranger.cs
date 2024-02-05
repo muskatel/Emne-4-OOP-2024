@@ -10,7 +10,7 @@ public class Ranger:Character
     public Ranger(String name)
     :base(name,
         "Ranger", 
-        "a merry man of the woods")
+        "a merry person of the woods")
     {
         
     }
