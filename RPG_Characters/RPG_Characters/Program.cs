@@ -1,4 +1,7 @@
-﻿namespace RPG_Characters;
+﻿using RPG_Characters.Characters;
+using RPG_Characters.Weapons;
+
+namespace RPG_Characters;
 
 class Program
 {
@@ -6,9 +9,11 @@ class Program
     {
         Console.WriteLine("Hello, World!");
 
-        Character char1 = new Character("Craig", "the ranger");
-        Weapon w1 = new Weapon("bow", "a fancy bow", WeaponAttackType.Ranged);
-        char1.EquipWeapon(w1);
+        Character char1 = new Ranger("Craigsworth");
+
+        Weapon wep1 = new Bow();
+        
+        char1.EquipWeapon(wep1);
         
         Console.WriteLine(char1.Attack());
         

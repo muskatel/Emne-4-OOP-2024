@@ -21,7 +21,7 @@ public class Weapon
         AttackType = attackType;
         
         // built the attack message
-        _attackMessage = $"{AttackType} attack using a {_name}.";
+        _attackMessage = $"{AttackType} attack using a {_name} ({description}).";
     }
 
     public String Attack()

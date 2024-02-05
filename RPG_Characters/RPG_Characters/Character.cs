@@ -2,13 +2,15 @@
 
 public class Character
 {
-    private String _name;
+    private String _name; // The name of the actual character
+    private String _className;
     private String _description;
     private Weapon _equippedWeapon;
 
-    public Character(string name, string description)
+    public Character(string name, string className, string description)
     {
         _name = name;
+        _className = className;
         _description = description;
     }
 
@@ -19,6 +21,6 @@ public class Character
 
     public String Attack()
     {
-        return $"{_name} used a {_equippedWeapon.Attack()}";
+        return $"{_name} the {_className} makes a {_equippedWeapon.Attack()}";
     }
 }
