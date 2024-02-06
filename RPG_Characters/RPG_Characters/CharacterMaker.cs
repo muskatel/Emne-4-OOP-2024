@@ -16,12 +16,14 @@ public static class CharacterMaker
         start.Add("Ara");
         start.Add("Gim");
         start.Add("Fro");
+        start.Add("Sam");
         
         List<String> end = new List<string>();
         end.Add("dalf");
         end.Add("gorn");
         end.Add("li");
         end.Add("do");
+        end.Add("wise");
         
         //Create a random name?
         String name = start[random.Next(start.Count)] 
@@ -33,6 +35,7 @@ public static class CharacterMaker
         characterOptions.Add("Ranger");     // 1
         characterOptions.Add("Rogue");      // 2
         characterOptions.Add("Wizard");     // 3
+        characterOptions.Add("Bard");       // 4
 
         List<String> weaponOptions = new List<string>();
         weaponOptions.Add("Bow");
@@ -58,6 +61,9 @@ public static class CharacterMaker
                 break;
             case "Wizard":
                 character = new Wizard(name);
+                break;
+            case "Bard":
+                character = new Bard(name);
                 break;
         }
         
