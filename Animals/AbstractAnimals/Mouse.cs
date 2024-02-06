@@ -1,21 +1,15 @@
 ﻿namespace AbstractAnimals;
 
-public class Mouse
+public class Mouse:Animal
 {
-    public String info = "This is a mouse.";
-
     public Mouse()
     {
-        //nothing here
+        info = "This is a mouse.";
     }
     
-    public void makeNoise()
+    public override void makeNoise()
     {
         Console.WriteLine("Squeak"); 
     }
 
-    public void getInfo()
-    {
-        Console.WriteLine(info);
-    }
 }

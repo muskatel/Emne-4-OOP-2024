@@ -1,21 +1,15 @@
 ﻿namespace AbstractAnimals;
 
-public class Cat
+public class Cat:Animal
 {
-    private String info = "This is a cat.";
-
     public Cat()
-    {
-        //nothing here
+    { 
+        info = "This is a cat.";
     }
     
-    public void makeNoise()
+    public override void makeNoise()
     {
         Console.WriteLine("Meow"); 
     }
 
-    public void getInfo()
-    {
-        Console.WriteLine(info);
-    }
 }
