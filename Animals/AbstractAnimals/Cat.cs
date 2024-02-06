@@ -1,17 +1,17 @@
-﻿namespace Animals;
+﻿namespace AbstractAnimals;
 
-public class Mouse
+public class Cat
 {
-    public String info = "This is a mouse.";
+    private String info = "This is a cat.";
 
-    public Mouse()
+    public Cat()
     {
         //nothing here
     }
     
     public void makeNoise()
     {
-        Console.WriteLine("Squeak"); 
+        Console.WriteLine("Meow"); 
     }
 
     public void getInfo()

@@ -1,4 +1,4 @@
-﻿namespace Animals;
+﻿namespace AbstractAnimals;
 
 public class Mouse
 {

@@ -2,7 +2,7 @@
 
 public class Cat
 {
-    private String info = "This is a cat";
+    private String info = "This is a cat.";
 
     public Cat()
     {
