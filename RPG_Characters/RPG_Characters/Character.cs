@@ -1,10 +1,10 @@
 ﻿namespace RPG_Characters;
 
-public class Character
+public abstract class Character
 {
     private String _name; // The name of the actual character
     private String _className;
-    private String _description;
+    protected String _description;
     private Weapon _equippedWeapon;
 
     protected List<WeaponAttackType> _allowedWeapons;
@@ -38,4 +38,6 @@ public class Character
         }
         return $"{_name} the {_className} makes a {_equippedWeapon.Attack()}";
     }
+
+    public abstract void PrintDescription();
 }

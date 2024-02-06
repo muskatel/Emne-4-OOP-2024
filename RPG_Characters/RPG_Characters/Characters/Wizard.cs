@@ -15,4 +15,9 @@ public class Wizard:Character
         Console.WriteLine("Cast a spell.");
     }
     
+    public override void PrintDescription()
+    {
+        Console.WriteLine("The Wizard casts a spell: " + _description);
+    }
+    
 }

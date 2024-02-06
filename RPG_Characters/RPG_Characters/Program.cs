@@ -30,6 +30,8 @@ class Program
         
         List<Character> party = new List<Character>();
         
+        //party.Add(new Character("CRAIG", "TEACHERMAN", "the best"));
+        
         for (int j = 0; j < 5; j++)
         {
            party.Add(CharacterMaker.RandomCharacter()); 
@@ -38,6 +40,8 @@ class Program
         foreach (Character character in party)
         {
             Console.WriteLine(character.Attack());
+            character.PrintDescription();
+            Console.WriteLine(" ");
         }
         
         int i = 0;

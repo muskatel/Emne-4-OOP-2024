@@ -15,4 +15,9 @@ public class Ranger:Character
         _allowedWeapons.Add(WeaponAttackType.Ranged);
     }
     
+    public override void PrintDescription()
+    {
+        Console.WriteLine("Ranger description: " + _description);
+    }
+    
 }

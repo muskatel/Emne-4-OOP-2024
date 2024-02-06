@@ -11,4 +11,9 @@ public class Rogue:Character
         _allowedWeapons.Add(WeaponAttackType.Ranged);
     }
     
+    public override void PrintDescription()
+    {
+        Console.WriteLine("Rogue description: " + _description);
+    }
+    
 }

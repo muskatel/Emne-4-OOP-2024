@@ -14,4 +14,9 @@ public class Bard:Character
     {
         Console.WriteLine(" [ MUSIC INTENSIFIES ]");
     }
+
+    public override void PrintDescription()
+    {
+        Console.WriteLine(_description +": The bard plays a tune");
+    }
 }

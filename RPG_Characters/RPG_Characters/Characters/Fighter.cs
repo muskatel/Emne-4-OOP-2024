@@ -14,5 +14,9 @@ public class Fighter:Character
     {
         Console.WriteLine("An angry scream");
     }
-    
+
+    public override void PrintDescription()
+    {
+        Console.WriteLine("Fighter description: " + _description);
+    }
 }
