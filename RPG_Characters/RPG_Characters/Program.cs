@@ -7,6 +7,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        /*
+        // OLD CODE
         // Create a character
         Character player1 = new Wizard("Craigsworth");
         // LSP means that we can choose any class to "fit" into the character role
@@ -24,13 +26,14 @@ class Program
         Character player2 = new Fighter("Steve");
         player2.EquipWeapon(new Sword());
 
+        */
+        
         List<Character> party = new List<Character>();
-        party.Add(player1);
-        party.Add(player2);
-        party.Add(CharacterMaker.RandomCharacter());
-        party.Add(CharacterMaker.RandomCharacter());
-        party.Add(CharacterMaker.RandomCharacter());
-        party.Add(CharacterMaker.RandomCharacter());
+        
+        for (int j = 0; j < 5; j++)
+        {
+           party.Add(CharacterMaker.RandomCharacter()); 
+        }
 
         foreach (Character character in party)
         {
