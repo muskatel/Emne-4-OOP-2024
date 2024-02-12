@@ -9,12 +9,23 @@ class Program
     {
         Console.WriteLine("Hello, IKEA!");
 
-        Product mycarpet = new Carpet();
+        List<Product> products = new List<Product>();
+        products.Add(new Carpet());
+        products.Add(new Bookshelf());
 
-        
-        if (mycarpet is IOffice officeCarpet)
-        { 
-            Console.WriteLine(officeCarpet.Office());
+        foreach (Product product in products)
+        {
+            
+            if (product is IAssemblable assembleProduct)
+            { 
+                Console.WriteLine(assembleProduct.Assemble());
+            } 
+            
+            
+            if (product is IOffice officeProduct)
+            { 
+                Console.WriteLine(officeProduct.Office());
+            } 
         }
         
     }

@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RarePepeGameCirca2024", "RarePepeGameCirca2024\RarePepeGameCirca2024.csproj", "{48064F66-2075-4783-85DC-E35AB0B3C309}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48064F66-2075-4783-85DC-E35AB0B3C309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48064F66-2075-4783-85DC-E35AB0B3C309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48064F66-2075-4783-85DC-E35AB0B3C309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48064F66-2075-4783-85DC-E35AB0B3C309}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

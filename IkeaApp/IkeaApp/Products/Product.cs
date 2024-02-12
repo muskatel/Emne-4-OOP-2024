@@ -20,5 +20,11 @@ public abstract class Product
     public abstract String GetShelf();
     
     public abstract String Description();
-    
+
+    protected string ReadAssemblyStepsFromDB()
+    {
+        // connect to DB and read steps;
+        return "Do not assemble alone. Follow steps 1, then 2, then 3";
+    }
+
 }
