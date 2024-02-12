@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{648A9336-A01F-4F40-BC39-D65718E7FC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractAnimals", "AbstractAnimals\AbstractAnimals.csproj", "{233D9F15-37C3-4951-9E72-B0BC5F4C416F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{648A9336-A01F-4F40-BC39-D65718E7FC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{648A9336-A01F-4F40-BC39-D65718E7FC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{648A9336-A01F-4F40-BC39-D65718E7FC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{648A9336-A01F-4F40-BC39-D65718E7FC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{233D9F15-37C3-4951-9E72-B0BC5F4C416F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233D9F15-37C3-4951-9E72-B0BC5F4C416F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233D9F15-37C3-4951-9E72-B0BC5F4C416F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233D9F15-37C3-4951-9E72-B0BC5F4C416F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
