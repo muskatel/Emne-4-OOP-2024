@@ -8,10 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe7c0993-6929-4819-b7e5-407ead14ec31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/avalonia.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AvaloniaApplication1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +34,7 @@
     "accountId": "ee73920f-0737-4ea0-89b1-dc9065bd46e8"
   }
 }]]></component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 6
@@ -99,15 +97,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708262618296</updated>
-      <workItem from="1708262618994" duration="935000" />
+      <workItem from="1708262618994" duration="2757000" />
     </task>
+    <task id="LOCAL-00001" summary="avalonia testing">
+      <option name="closed" value="true" />
+      <created>1708263581688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708263581688</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="avalonia testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="avalonia testing" />
   </component>
 </project>
