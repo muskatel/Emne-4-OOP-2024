@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenges", "CodingChallenges\CodingChallenges.csproj", "{A790BF9F-366C-49B4-988A-524D957891BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "palindrome", "palindrome\palindrome.csproj", "{826D05AB-08AB-4C48-855B-CAA9F6B6FC17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Average", "Average\Average.csproj", "{67C5EF86-F58B-4172-9E2A-34B166E4DF81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{A790BF9F-366C-49B4-988A-524D957891BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A790BF9F-366C-49B4-988A-524D957891BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A790BF9F-366C-49B4-988A-524D957891BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{826D05AB-08AB-4C48-855B-CAA9F6B6FC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{826D05AB-08AB-4C48-855B-CAA9F6B6FC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{826D05AB-08AB-4C48-855B-CAA9F6B6FC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{826D05AB-08AB-4C48-855B-CAA9F6B6FC17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C5EF86-F58B-4172-9E2A-34B166E4DF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C5EF86-F58B-4172-9E2A-34B166E4DF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C5EF86-F58B-4172-9E2A-34B166E4DF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67C5EF86-F58B-4172-9E2A-34B166E4DF81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
