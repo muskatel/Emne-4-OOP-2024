@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="cea7b49d-bd60-4ffe-a12e-44b71d065bf6" name="world@localhost (DDL) Mapping">
+      <data-sources db="73815f6c-886e-49dd-9b35-f0dda5a69a78" ddl="ca5f655d-8fc8-4148-9bb8-4843e9403ef7" />
+      <scope>
+        <node kind="database" qname="@">
+          <node kind="schema" qname="@" />
+        </node>
+      </scope>
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="ca5f655d-8fc8-4148-9bb8-4843e9403ef7" />
+          <option name="name" value="world@localhost (DDL)" />
+          <option name="dbmsName" value="MYSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/DDL" />
+              <option value="file://$PROJECT_DIR$/DDL/world/city.sql" />
+              <option value="file://$PROJECT_DIR$/DDL/world/country.sql" />
+              <option value="file://$PROJECT_DIR$/DDL/world/countrylanguage.sql" />
+              <option value="file://$PROJECT_DIR$/DDL/world/ncity.sql" />
+              <option value="file://$PROJECT_DIR$/DDL/world/ncountry.sql" />
+            </array>
+          </option>
+          <option name="outPath" value="C:\Users\craig\Documents\Developer\Emne-4-OOP-2024\DBConnection\DDL" />
+          <option name="outLayout" value="File per object by schema.groovy" />
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
