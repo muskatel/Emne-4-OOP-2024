@@ -11,8 +11,6 @@ public class Sodoku
         {
             char[] row = board[i];
             
-            
-            
             //check row
             if (!CheckSet(row))
             {
