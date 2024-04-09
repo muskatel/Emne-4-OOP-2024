@@ -1,6 +1,6 @@
 namespace FilterExample;
 
-public class Result
+public class Result: IComparable
 {
     public string name;
     public float grade;
@@ -9,10 +9,19 @@ public class Result
         this.name = name;
         this.grade = grade;
     }
+
+    public int CompareTo(object? obj)
+    {
+        Result other = (Result)obj;
+
+        return (int)(this.grade - other.grade);
+    }
 }
 
 public class GradingTool
 {
+    
+    // Defines what filter looks like
     public delegate bool FilterDelegate(float value);
     
     
@@ -36,9 +45,13 @@ public class GradingTool
         gradesList.Add(new Result("Alex", 75));
 
 
-        FilterDelegate filterOver70 = FilterMaker(70);
+        //FilterDelegate filterOver70 = FilterMaker(70);
+
+
+        gradesList.Sort();
+        PrintGrade(gradesList);
         
-        PrintGrade(FilterResults(gradesList, FilterMaker(25)));
+        //PrintGrade(FilterResults(gradesList, FilterMaker(38.5f)));
     }
 
     public bool FilterOver50(float grade)
@@ -58,9 +71,10 @@ public class GradingTool
     /// <returns> A filter that filter selects values over the input value</returns>
     public FilterDelegate FilterMaker(float value)
     {
-        FilterDelegate filter = ((float input) =>
+        value = (float)Math.Ceiling(value);
+        FilterDelegate filter = ((float grade) =>
         {
-            return input > value;
+            return grade >= value;
         } );
         
         return filter;

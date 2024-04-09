@@ -8,33 +8,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a54e5b26-a127-42ca-8526-8acb9f70acdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CodingChallenges/Average/Average.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingChallenges/Average/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingChallenges/palindrome/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodingChallenges/palindrome/palindrome.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleCalc/.idea/.idea.ConsoleCalc/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleCalc/ConsoleCalc/Calculations/Addition.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleCalc/ConsoleCalc/Calculations/Calculation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleCalc/ConsoleCalc/Calculations/Division.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleCalc/ConsoleCalc/Calculations/Multiplication.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConsoleCalc/ConsoleCalc/Calculations/Subtraction.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lambda/.idea/.idea.Lambda/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lambda/Lambda.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lambda/Lambda.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lambda/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RogueGame/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Characters/Character.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Characters/Fighter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Characters/Rogue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Characters/Wizard.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPGGame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RogueGame.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RogueGame.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TryCalc/.idea/.idea.TryCalc/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TryCalc/TryCalc/BadOperationException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodingChallenges/CodingChallenges.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingChallenges/CodingChallenges.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CodingChallenges/CodingChallenges/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../CodingChallenges/CodingChallenges/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FilterExample/.idea/.idea.FilterExample/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FilterExample/.idea/.idea.FilterExample/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FilterExample/.idea/.idea.FilterExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics1/.idea/.idea.Generics1/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics1/.idea/.idea.Generics1/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics1/.idea/.idea.Generics1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics1/.idea/.idea.Generics1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics1/Generics1.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics1/Generics1.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Generics1/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lambda/.idea/.idea.Lambda/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lambda/.idea/.idea.Lambda/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lambda/.idea/.idea.Lambda/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPG_Game/.idea/.idea.RPG_Game/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPG_Game/.idea/.idea.RPG_Game/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPG_Game/.idea/.idea.RPG_Game/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPG_Game/.idea/.idea.RPG_Game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPG_Game/Character.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPG_Game/Enemy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPG_Game/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPG_Game/RPG_Game.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPG_Game/RPG_Game.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RPG_Game/World.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RogueGame/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RogueGame/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RogueGame/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FilterExample/.idea/.idea.FilterExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FilterExample/.idea/.idea.FilterExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FilterExample/GradingTool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FilterExample/GradingTool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lambda/.idea/.idea.Lambda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lambda/.idea/.idea.Lambda/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RogueGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RogueGame/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +53,17 @@
     "assignee": "muskatel"
   }
 }]]></component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": []
+}]]></component>
+  <component name="GitLabMergeRequestsSettings"><![CDATA[{}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "git@github.com:muskatel/Emne-4-OOP-2024.git",
     "accountId": "ee73920f-0737-4ea0-89b1-dc9065bd46e8"
   }
 }]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -117,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709588249614</updated>
-      <workItem from="1709588250747" duration="3514000" />
+      <workItem from="1709588250747" duration="4844000" />
     </task>
     <servers />
   </component>
