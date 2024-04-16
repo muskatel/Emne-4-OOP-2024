@@ -145,7 +145,91 @@ Console.WriteLine($"Connect to {server}");
 
 conn.Close();
 
-foreach (Country country in World)
+// ready to do stuff!
+
+/* LINQ Structure
+   RESULT = FROM ELEMENT IN COLLECTION
+	        WHERE CONDITION
+		    ARRANGE
+	        SELECT ELEMENT
+ */
+
+//LINQ
+
+// Life expectancy over 80
+IEnumerable<Country> results =
+    from Country in World
+    where Country.LifeExpectancy >= 80
+    orderby Country.Region
+    select Country;
+Console.WriteLine("----------------------");
+foreach (Country country in results)
 {
-    Console.WriteLine($"{country.Name} - {country.CapitalCity.Name}");
+    Console.WriteLine(country.Name + " - " + country.Region);
+    Console.WriteLine("Life Expectancy:" + country.LifeExpectancy);
 }
+Console.WriteLine("----------------------");
+// IEnumerable<Country> results_other =
+//     World.FindAll(county => county.LifeExpectancy >= 80)
+//         .OrderBy(county => county.Region);
+//
+// foreach (Country country in results_other)
+// {
+//     Console.WriteLine(country.Name + " - " + country.Region);
+//     Console.WriteLine("Life Expectancy:" + country.LifeExpectancy );
+// }
+// Console.WriteLine("----------------------");
+
+//find cities in Sweden
+
+Console.WriteLine("Please enter country code:");
+String code = "ZAF";//Console.ReadLine().Trim().ToUpper();
+
+Country userCountry =
+    World.Single(county => county.Code == code);
+
+IEnumerable<City> res1 =
+    // declarative query syntax
+    from City in Cities
+    where City.CountryCode == code.Trim().ToUpper()
+    select City;
+
+
+Console.WriteLine($"Cities in {userCountry.LocalName}");
+foreach (City city in res1)
+{
+    Console.WriteLine(city.Name);
+}
+
+/* LINQ Structure
+   RESULT = FROM ELEMENT IN COLLECTION
+	        WHERE CONDITION
+		    ARRANGE
+	        SELECT ELEMENT
+ */
+
+
+//give city name find the pop of the country
+Console.WriteLine("Please enter city name:");
+String input = Console.ReadLine().Trim().ToUpper();
+
+
+Country cr = World
+    .Single(
+        country => country.Code == Cities.First(
+            city => city.Name.ToUpper() == input
+            )
+            .CountryCode);
+
+
+Console.WriteLine(cr.LocalName +" "+ cr.Population);
+
+
+
+
+
+
+
+
+
+
