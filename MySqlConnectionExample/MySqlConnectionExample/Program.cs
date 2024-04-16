@@ -30,12 +30,81 @@ List<Country> World = new List<Country>();
 
 while (reader.Read())
 {
-    World.Add(new Country()
+    Country c = new Country();
+    c.Code = (String)reader["Code"];
+    c.Name = (String)reader["Name"];
+    c.Continent = (String)reader["Continent"];
+    c.Region = (String)reader["Region"];
+    
+    if (reader["SurfaceArea"] == DBNull.Value)
     {
-      Code  = (String)reader["Code"],
-      Name  = (String)reader["Name"],
-      Continent  = (String)reader["Continent"]
-    });
+        c.SurfaceArea = 0;
+    }
+    else
+    {
+        c.SurfaceArea = Double.Parse(reader["SurfaceArea"].ToString());
+    }
+    
+    if (reader["IndepYear"] == DBNull.Value)
+    {
+        c.IndepYear = 0;
+    }
+    else
+    {
+        c.IndepYear = int.Parse(reader["IndepYear"].ToString());
+    }
+    
+    if (reader["Population"] == DBNull.Value)
+    {
+        c.Population = 0;
+    }
+    else
+    {
+        c.Population = (int)reader["Population"];
+    }
+    
+    if (reader["LifeExpectancy"] == DBNull.Value)
+    {
+        c.LifeExpectancy = 0;
+    }
+    else
+    {
+        c.LifeExpectancy = Double.Parse(reader["LifeExpectancy"].ToString());
+    }
+    
+    if (reader["GNP"] == DBNull.Value)
+    {
+        c.GNP = 0;
+    }
+    else
+    {
+        c.GNP = Double.Parse(reader["GNP"].ToString());
+    }
+    
+    if (reader["GNPOld"] == DBNull.Value)
+    {
+        c.GNPOld = 0;
+    }
+    else
+    {
+        c.GNPOld = Double.Parse(reader["GNPOld"].ToString());
+    }
+    
+    c.LocalName = (String)reader["LocalName"];
+    c.GovernmentForm = (String)reader["GovernmentForm"];
+    c.HeadOfState = reader["HeadOfState"].ToString();
+    
+    if (reader["Capital"] == DBNull.Value)
+    {
+        c.Capital = 0;
+    }
+    else
+    {
+        c.Capital = (int)reader["Capital"];
+    }
+    c.Code2 = (String)reader["Code2"];
+
+    World.Add(c);
 }
 
 Console.WriteLine("Read complete");
