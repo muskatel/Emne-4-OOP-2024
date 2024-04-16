@@ -1,4 +1,4 @@
-namespace MySqlConnectionExample;
+namespace MySqlConnectionExample.DbClasses;
 
 public class Country
 {
@@ -16,5 +16,6 @@ public class Country
     public String GovernmentForm { get; set; }
     public String HeadOfState { get; set; }
     public int Capital { get; set; } // fk on city table
+    public City CapitalCity { get; set; }
     public String Code2 { get; set; }
 }
